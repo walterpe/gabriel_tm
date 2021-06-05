@@ -9,10 +9,14 @@
 using namespace std;
 
 int main() {
-    // function call
-    int my_prod_a = my_funct_mult(15,3);
-    // function call
-    int my_div_b = myFunctDiv(15,3);
+
+    // variable assignement : var_name = value    
+    int my_first = 15;
+    int my_second = 3;
+    
+    // function calls
+    int my_prod_a = my_funct_mult (my_first, my_second);
+    int my_div_b  = myFunctDiv    (my_first, my_second);
     
     // show in console
     cout << "prod 15*3 = " << my_prod_a << "\n";
