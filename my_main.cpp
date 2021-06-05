@@ -10,17 +10,28 @@ using namespace std;
 
 int main() {
 
-    // variable assignement : var_name = value    
-    int my_first = 15;
-    int my_second = 3;
+    // arrays : collection of values 
+    const int my_length = 3;
+    int my_firsts[my_length]  = { 15, 12, 6 };
+    int my_seconds[my_length] = {  3,  4, 2 };
+
     
-    // function calls
-    int my_prod_a = my_funct_mult (my_first, my_second);
-    int my_div_b  = myFunctDiv    (my_first, my_second);
-    
-    // show in console
-    cout << "prod " << my_first << "*" << my_second << " = " << my_prod_a << "\n";
-    cout << "div  " << my_first << "/" << my_second << " = " << my_div_b << "\n";
+    // iteration : until my_length
+    for (int i=0; i < my_length ; i++ ) {
+       // extract from array
+       int my_first  = my_firsts[i];
+       int my_second = my_seconds[i];
+        
+       // function calls
+       int my_prod = my_funct_mult (my_first, my_second);
+       int my_div  = myFunctDiv    (my_first, my_second);
+       
+       // show in console
+       cout << "prod " << my_first << "*" << my_second << " = " << my_prod << "\n";
+       cout << "div  " << my_first << "/" << my_second << " = " << my_div  << "\n";
+       cout << "\n";
+    }
+
     
     // 0 : means all is ok.
     return 0;
