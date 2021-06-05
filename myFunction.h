@@ -1,0 +1,1 @@
+int myFunctMult(int my_p, int my_q);
