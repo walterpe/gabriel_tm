@@ -11,7 +11,7 @@ myFunction.o: myFunction.h  myFunction.cpp
 	g++  -c myFunction.cpp
 
 clean:
-	rm  my_function.o  myFunction.o  my_main
+	rm  my_function.o  myFunction.o  my_main.o  my_main
 	
 my_goal_ls:
 	ls -l
