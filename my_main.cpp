@@ -19,8 +19,8 @@ int main() {
     int my_div_b  = myFunctDiv    (my_first, my_second);
     
     // show in console
-    cout << "prod 15*3 = " << my_prod_a << "\n";
-    cout << "div  15/3 = " << my_div_b << "\n";
+    cout << "prod " << my_first << "*" << my_second << " = " << my_prod_a << "\n";
+    cout << "div  " << my_first << "/" << my_second << " = " << my_div_b << "\n";
     
     // 0 : means all is ok.
     return 0;
