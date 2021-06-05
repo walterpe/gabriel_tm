@@ -1,8 +1,6 @@
 #include "myFunction.h"
-#include "my_function.h"
 
-int myFunctMult(int my_p, int my_q) {
-    // function call;
-    int my_result = my_funct_mult(my_p, my_q);
+int myFunctDiv(int my_p, int my_q) {
+    int my_result = my_p / my_q;
     return my_result;    
 }

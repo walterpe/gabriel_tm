@@ -7,7 +7,7 @@ my_main.o: my_main.cpp  my_function.h  myFunction.h
 my_function.o: my_function.h  my_function.cpp
 	g++  -c my_function.cpp
 
-myFunction.o: myFunction.h  my_function.h  myFunction.cpp
+myFunction.o: myFunction.h  myFunction.cpp
 	g++  -c myFunction.cpp
 
 clean:

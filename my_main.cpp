@@ -10,13 +10,13 @@ using namespace std;
 
 int main() {
     // function call
-    int my_prod_a = my_funct_mult(3,4);
+    int my_prod_a = my_funct_mult(15,3);
     // function call
-    int my_prod_b = myFunctMult(3,4);
+    int my_div_b = myFunctDiv(15,3);
     
     // show in console
-    cout << "prod a = " << my_prod_a << "\n";
-    cout << "prod b = " << my_prod_b << "\n";
+    cout << "prod 15*3 = " << my_prod_a << "\n";
+    cout << "div  15/3 = " << my_div_b << "\n";
     
     // 0 : means all is ok.
     return 0;
