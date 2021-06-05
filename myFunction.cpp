@@ -1,4 +1,5 @@
 #include "myFunction.h"
+#include "my_function.h"
 
 int myFunctMult(int my_p, int my_q) {
     // function call;

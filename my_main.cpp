@@ -1,4 +1,9 @@
 #include "my_function.h"
+#include "myFunction.h"
+
+// camelCaseStyle
+// underline_style
+
 #include "iostream"
 
 using namespace std;
